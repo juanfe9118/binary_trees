@@ -1,6 +1,9 @@
 # C - Binary Trees
 ### This Repo is for learning about Binary Trees in C. Below is a brief description of the files contained in this repo.
 
+#### [binary_trees.h](./binary_trees.h)
+* Header file containing all the libraries as well as fuction prototypes needed for this project.
+
 #### [0-binary_tree_node.c](./0-binary_tree_node.c)
 * Function that creates a binary tree node.
 
