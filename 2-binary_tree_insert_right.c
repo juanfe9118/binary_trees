@@ -6,8 +6,8 @@
  * @value: value the new node will have
  * Return: a pointer to the newly created node or NULL upon failure.
  */
- binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
- {
+binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
+{
 	binary_tree_t *new;
 
 	if (parent == NULL)
@@ -27,9 +27,9 @@
 	else
 	{
 		new->right = parent->right;
-        new->right->parent = new;
+		new->right->parent = new;
 		parent->right = new;
 	}
 
 	return (new);
- }
+}
